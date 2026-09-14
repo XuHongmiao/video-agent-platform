@@ -1,27 +1,27 @@
 <div align="center">
-  <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+  <a href="https://github.com/xuhongmiao/video-agent-platform">
   </a>
 
-  <h1 align="center">DoVideoAI - 智能视频内容理解平台</h1>
+  <h1 align="center">video-agent-platform - 智能视频内容理解平台</h1>
   
   <p align="center">
     <strong> 稳定视频接入 / 多模态内容理解 / 目标驱动 Agent 分析 </strong>
   </p>
 
   <p align="center">
-    <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+    <a href="https://github.com/xuhongmiao/video-agent-platform">
       <img src="https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen" alt="Spring Boot">
     </a>
-    <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+    <a href="https://github.com/xuhongmiao/video-agent-platform">
       <img src="https://img.shields.io/badge/RocketMQ-4.9-orange" alt="RocketMQ">
     </a>
-    <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+    <a href="https://github.com/xuhongmiao/video-agent-platform">
       <img src="https://img.shields.io/badge/Redisson-Lock-red" alt="Redisson">
     </a>
-    <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+    <a href="https://github.com/xuhongmiao/video-agent-platform">
       <img src="https://img.shields.io/badge/LangChain4j-Agent-blueviolet" alt="LangChain4j">
     </a>
-    <a href="https://github.com/Xiaoc7r/DOVideo-AI">
+    <a href="https://github.com/xuhongmiao/video-agent-platform">
       <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
     </a>
   </p>
@@ -31,13 +31,13 @@
 
 <br/>
 
-**DoVideoAI** 是一个面向长视频内容理解的 **Video Agent** 平台。
+**video-agent-platform** 是一个面向长视频内容理解的 **video agent** 平台。
 
-**DoVideoAI** 集成了用户鉴权、分片上传、音频提取、文字转写、多模态解析及 AI 结构化产物生成。
+**video-agent-platform** 集成了用户鉴权、分片上传、音频提取、文字转写、多模态解析及 AI 结构化产物生成。
 
 针对视频处理场景中常见的 **长耗时阻塞、高并发资源冲突、大文件传输不稳定** 等痛点，我们基于 **RocketMQ + Redisson + 分片续传** 重构了系统架构。针对视频的音像信息获取理解复杂的痛点，我们采取并行提取语音和视觉信息的方式，按时间轴构建了统一的多模态 **VideoContext**。在此基础上，系统通过 **Planner-Executor-Critic** 受控 AgentLoop 工作流理解用户目标、拆解任务、检索证据、生成结构化产物并校验结论。用户可以基于已经解析的视频内容继续追问，无需重新执行完整的视频预处理。
 
-视频平台大多只解决了**存储**和**播放**的问题，DoVideoAI 旨在解决“理解”的问题，利用 AI 提取核心价值，让视频不再是黑盒。
+视频平台大多只解决了**存储**和**播放**的问题，video-agent-platform旨在解决“理解”的问题，利用 AI 提取核心价值，让视频不再是黑盒。
 
 
 <br/>
@@ -327,6 +327,3 @@ npm run dev
 
 
 <br/>
-
-## 贡献与支持
-如果这个项目对你有帮助，请给个 Star ⭐️⭐️⭐️⭐️⭐️！
